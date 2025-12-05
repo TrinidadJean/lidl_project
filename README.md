@@ -235,7 +235,7 @@ flowchart TB
 
 #### Paso 1: Abrir en Codespaces
 
-1. Ve al repositorio: `[https://github.com/pconstancioteacher/lidl_project](https://github.com/TrinidadJean/lidl_project)`
+1. Ve al repositorio: `[https://github.com/TrinidadJean/lidl_project]`
 2. Click en el botón verde **"<> Code"**
 3. Selecciona la pestaña **"Codespaces"**
 4. Click en **"Create codespace on main"**
