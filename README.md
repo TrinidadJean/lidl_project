@@ -676,9 +676,6 @@ pip install -r requirements.txt --force-reinstall
 | **Dilan Ferreira** | Data Engineer | Validaciones y testing |
 | **Jean Pierre Trinidad** | Data Engineer | Documentación y DevOps |
 
-### Equipo B - Análisis de Datos (Silver & Gold)
-
-Responsables del análisis exploratorio, modelado predictivo y generación de insights de negocio a partir de los datos en Silver Layer.
 
 ---
 
