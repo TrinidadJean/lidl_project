@@ -727,6 +727,6 @@ Para consultas sobre el proyecto:
 
 *Construyendo el futuro del retail con datos de calidad*
 
-[⬆️ Volver arriba](#-proyecto-lidl---pipeline-de-datos-de-clientes)
+[⬆️ Volver arriba](#-Entrega:-Proyecto-LIDL---Pipeline-de-Datos-de-Clientes)
 
 </div>
