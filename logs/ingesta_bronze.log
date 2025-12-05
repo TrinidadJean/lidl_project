@@ -1,0 +1,44 @@
+2025-12-05 01:13:39,295 - INFO - ============================================================
+2025-12-05 01:13:39,295 - INFO - 🏪 PROYECTO LIDL - PIPELINE DE DATOS
+2025-12-05 01:13:39,295 - INFO - ============================================================
+2025-12-05 01:13:39,295 - INFO - 
+📥 ETAPA 1: Ingesta Bronze Layer
+2025-12-05 01:13:39,295 - INFO - ------------------------------------------------------------
+2025-12-05 01:13:39,295 - INFO - === Iniciando Ingesta Bronze Layer ===
+2025-12-05 01:13:39,296 - INFO - Ingiriendo clientes_extra.txt...
+2025-12-05 01:13:39,303 - WARNING - Validaciones fallidas en clientes_extra.txt: ['codigo_unico: 500 registros inválidos']
+2025-12-05 01:13:39,343 - INFO - ✓ clientes_extra.txt ingresado: 500 registros
+2025-12-05 01:13:39,343 - INFO - Ingiriendo clientes_info.csv...
+2025-12-05 01:13:39,348 - INFO - ✓ clientes_info.csv ingresado: 500 registros
+2025-12-05 01:13:39,348 - INFO - Ingiriendo clientes.sql...
+2025-12-05 01:13:39,355 - INFO - ✓ clientes.sql ingresado: 500 registros
+2025-12-05 01:13:39,355 - INFO - 
+=== Resumen de Ingesta ===
+2025-12-05 01:13:39,355 - INFO - Archivos procesados: 3
+2025-12-05 01:13:39,355 - INFO - Registros totales: 1500
+2025-12-05 01:13:39,355 - INFO - Errores: 1
+2025-12-05 01:13:39,355 - INFO - 
+🧹 ETAPA 2: Limpieza Silver Layer
+2025-12-05 01:13:39,355 - INFO - ------------------------------------------------------------
+2025-12-05 01:13:39,356 - INFO - === Iniciando Limpieza Silver Layer ===
+2025-12-05 01:13:42,990 - INFO - ✓ Sesión Spark iniciada
+2025-12-05 01:13:42,991 - INFO - Limpiando clientes_extra...
+2025-12-05 01:13:48,576 - INFO - ✓ clientes_extra limpiado: 500 registros
+2025-12-05 01:13:48,576 - INFO - Limpiando clientes_info...
+2025-12-05 01:13:50,201 - INFO - ✓ clientes_info limpiado: 500 registros
+2025-12-05 01:13:50,202 - INFO - Limpiando clientes...
+2025-12-05 01:13:51,398 - INFO - ✓ clientes limpiado: 500 registros
+2025-12-05 01:13:51,399 - INFO - 
+=== Limpieza Completada ===
+2025-12-05 01:13:51,399 - INFO - ✓ Todos los archivos procesados exitosamente
+2025-12-05 01:13:51,834 - INFO - ✓ Sesión Spark cerrada
+2025-12-05 01:13:51,834 - INFO - 
+============================================================
+2025-12-05 01:13:51,834 - INFO - ✅ WORKFLOW COMPLETADO EXITOSAMENTE
+2025-12-05 01:13:51,834 - INFO - ============================================================
+2025-12-05 01:13:51,834 - INFO - ⏱️  Duración total: 12.54 segundos
+2025-12-05 01:13:51,835 - INFO - 📁 Archivos Bronze: bronze/ventas/
+2025-12-05 01:13:51,835 - INFO - 📁 Archivos Silver: silver/ventas/
+2025-12-05 01:13:51,835 - INFO - 📋 Logs: logs/
+2025-12-05 01:13:51,836 - INFO - ============================================================
+2025-12-05 01:13:51,838 - INFO - Closing down clientserver connection

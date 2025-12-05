@@ -14,14 +14,7 @@ __pycache__/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Logs
-logs/
-*.log
 
-# Data files (opcional, depende si quieres versionar los datos)
-bronze/
-silver/
-gold/
 
 # IDE
 .vscode/
@@ -36,4 +29,3 @@ Thumbs.db
 # Spark
 metastore_db/
 derby.log
-spark-warehouse/

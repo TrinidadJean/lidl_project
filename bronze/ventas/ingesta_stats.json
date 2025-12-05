@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-05T01:13:39.295905",
+  "archivos_procesados": [
+    "clientes_extra.txt",
+    "clientes_info.csv",
+    "clientes.sql"
+  ],
+  "registros_totales": 1500,
+  "errores": [
+    "codigo_unico: 500 registros inv\u00e1lidos"
+  ]
+}
